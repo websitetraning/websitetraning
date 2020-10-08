@@ -20,17 +20,29 @@ include("navbar.php");
         <main>
             <div class='container-fluid'>
                 <?php
-                if (isset($_GET['changepass'])) {
-                    include('password.php');
+                if(isset($_GET['id']))
+                {
+                    $id=$_GET['id'];
+                    switch ($id) {
+                        case 'dashboard':
+                            include('dashboard.php');
+                            break;
+                        case 'changepass':
+                            include('password.php');
+                            break;
+                        case 'adduser':
+                            include('adduser.php');
+                            break;
+                        case 'dashboard':
+                            include('dashboard.php');
+                            break;
+                        
+                    }
                 }
-                if (isset($_GET['adduser'])) {
-                    include('register.php');
-                }
-
                 ?>
             </div>
         </main>
-        <?php include('footer.php');?>
+        <?php include('footer.php'); ?>
     </div>
 </div>
 <script src='https://code.jquery.com/jquery-3.4.1.min.js' crossorigin='anonymous'></script>
