@@ -31,18 +31,34 @@ include("navbar.php");
                             include('password.php');
                             break;
                         case 'adduser':
-                            include('adduser.php');
+                            include('register.php');
                             break;
-                        case 'dashboard':
+                        case 'theme':
+                            include('theme.php');
+                            break;
+                        case 'layout':
+                            include('layout.php');
+                            break;
+                        case 'content':
+                            include('content.php');
+                            break;
+                        case 'slider':
+                            include('slider.php');
+                            break;
+                        case 'advertisement':
+                            include('advertisement.php');
+                            break;
+                        default:
                             include('dashboard.php');
                             break;
                         
                     }
+                }else{
+                    include('dashboard.php');
                 }
                 ?>
             </div>
         </main>
-        <?php include('footer.php'); ?>
     </div>
 </div>
 <script src='https://code.jquery.com/jquery-3.4.1.min.js' crossorigin='anonymous'></script>

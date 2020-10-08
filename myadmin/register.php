@@ -1,14 +1,13 @@
 <?php
-if (isset($_GET['adduser'])) {
+if (isset($_GET['id'])) {
     
 }
 else{
-    echo '<script>location.href="index.php";</script>';
+    echo '<script>location.href="./";</script>';
 }
 ?>
-<h1 class='mt-4'>Add New User</h1>
-<ol class='breadcrumb mb-4'>
-    <li class='breadcrumb-item'><a href='index.php'>Dashboard</a></li>
+<ol class='breadcrumb mb-2 mt-2'>
+    <li class='breadcrumb-item'><a href='./'>Dashboard</a></li>
     <li class='breadcrumb-item active'>Add New User</li>
 </ol>
 <div id='layoutAuthentication'>

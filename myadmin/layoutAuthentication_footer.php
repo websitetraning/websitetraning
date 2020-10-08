@@ -2,7 +2,7 @@
     <footer class='py-4 bg-light mt-auto'>
         <div class='container-fluid'>
             <div class='d-flex align-items-center justify-content-between small'>
-                <div class='text-muted'>Copyright &copy;<a href="#"> DIVYANYSH ENTERPEISES LTD.</a> 2020</div>
+                <div class='text-muted'>Copyright &copy;<a href="#"> Netwings Training</a> 2020</div>
                 <div>
                     <a href='#'>Privacy Policy</a>
                     &middot;

@@ -14,14 +14,14 @@ if (!isset($_SESSION['admin_is_login'])) {
         if (password_verify($username, $admin_username) && password_verify($password, $admin_password)) {
             $_SESSION['admin_is_login'] = true;
             $_SESSION['Admin_Name'] = $username;
-            echo '<script>location.href="index.php";</script>';
+            echo '<script>location.href="./";</script>';
             exit;
         } else {
             $e_msg = '<div class="alert alert-warning mt-3 text-center" role="alert" >Login Failed Try Again</div>';
         }
     }
 } else {
-    echo ' <script>location.href="index.php";</script>';
+    echo ' <script>location.href="./";</script>';
 }
 
 include("layoutAuthentication_header.php") ?>
@@ -31,14 +31,12 @@ include("layoutAuthentication_header.php") ?>
         <div id='layoutAuthentication_content'>
             <main>
                 <div class='container'>
-                    <div class="mt-2 text-center c-name">
-                        <span>DIVYANYSH ENTERPEISES LTD.</span>
-                    </div>
+                
                     <div class='row justify-content-center'>
                         <div class='col-lg-5'>
                             <div class='card shadow-lg border-0 rounded-lg mt-5'>
                                 <div class='card-header'>
-                                    <h3 class='text-center font-weight-light my-4'>Login</h3>
+                                    <h3 class='text-center font-weight-light my-4'>Admin Login</h3>
                                 </div>
                                 <div class='card-body'>
                                     <form action="" method="post">
