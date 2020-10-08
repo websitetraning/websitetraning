@@ -19,11 +19,7 @@
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="includes/databasetheamcss.php">
-    
-
+    <link href="assets/css/style.php" rel="stylesheet">
 </head>
 <body>
 

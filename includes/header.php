@@ -1,3 +1,4 @@
+
 <!-- ======= Header ======= -->
 <header id="header">
     <div class="container">
@@ -5,7 +6,7 @@
         <div id="logo" class="pull-left">
             <!-- Uncomment below if you prefer to use a text logo -->
             <!-- <h1><a href="#intro">The<span>Event</span></a></h1>-->
-            <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a>
+            <a href="index.html" class="scrollto"><img <?php echo 'src="data:image/jpeg;base64,' . base64_encode($detialsfetch[3]) . '" '?> alt="" title=""></a>
         </div>
 
         <nav id="nav-menu-container">

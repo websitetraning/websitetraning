@@ -10626,14 +10626,15 @@ body {
 .sb-sidenav-light .sb-sidenav-footer {
   background-color: #e9ecef;
 }
-.c-name{
+.c-name {
   font-size: 3em;
   font-weight: bold;
   color: rgb(255, 49, 22);
 }
-body{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-image: url(https://c0.wallpaperflare.com/preview/53/620/941/bonneville-salt-flats-united-states-salt-flats-mountains.jpg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
+  background-attachment: fixed;
 }
